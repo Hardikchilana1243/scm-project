@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Image</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .rotating-image {
+            width: 300px;
+            height: auto;
+            animation: rotate 10s infinite linear;
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://th.bing.com/th/id/R.4bda28c9d4fb0703ed24de2f66fb62b0?rik=79i6gLR3hw20jQ&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f05%2fbike-wallpapers-hd-download-8.jpg&ehk=KGXWbQVaT5bS3n5MzFvloFK0oYtksEbGQbH0Xh3rLdw%3d&risl=&pid=ImgRaw&r=0" alt="Rotating Image" class="rotating-image">
+    </div>
+</body>
+</html>
