@@ -4,3 +4,4 @@ how to use push and pull
 
 making changes through git gui
 
+this is entered using git gui...
